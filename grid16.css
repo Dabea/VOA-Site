@@ -30,7 +30,7 @@ body, headeer, footer, ul, li,{
     padding:10px;
     margin-top:.5%;
     margin-bottom:.5%;
-    margin-left:0;
+    
 }
 .grid{
     width:100%;
@@ -70,7 +70,7 @@ body, headeer, footer, ul, li,{
     width:47%;
 }
 .col-9-16{
-    width:53.25%;
+    width:56%;
 }
 .col-10-16{
     width:59.5%;
@@ -92,6 +92,10 @@ body, headeer, footer, ul, li,{
 }
 .col-16-16{
     width:97%;
+}
+.col-16-16m{
+    width:100%;
+    margin-left:0px;
 }
 /**
 *  ===== Push ====
@@ -156,11 +160,11 @@ body, headeer, footer, ul, li,{
 @media all and (max-width: 768px) {
 
 
-    .col-1-16, .col-2-16, .col-3-16, .col-4-16, .col-5-16, .col-6-16, .col-7-16, .col-8-16, .col-9-16, .col-10-16, .col-11-16, .col-12-16, .col-13-16, .col-14-16, .col-15-16, .col-16-16{
-        float: none;
-        width: 99%;
+	.col-1-16, .col-2-16, .col-3-16, .col-4-16, .col-5-16, .col-6-16, .col-7-16, .col-8-16, .col-9-16, .col-10-16, .col-11-16, .col-12-16, .col-13-16, .col-14-16, .col-15-16, .col-16-16{
+		float: none;
+		width: 99%;
         margin-left:0;
-    }
+	}
     .push1, .push2, .push3, .push4, .push5, .push6, .push7, .push8, .push9, .push10, .push11, .push12, .push13, .push14, .push15, .push16{
         margin-left:0;
         

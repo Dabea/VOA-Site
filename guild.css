@@ -1,0 +1,66 @@
+body, header, footer, div, ul, li, html  {
+    padding:0px;
+    margin:0px;
+
+}
+
+body{
+    background-image: url(http://fc00.deviantart.net/fs71/f/2011/072/7/6/tera_aman_wallpaper_1080p_by_rendermax-d3blkk8.jpg);
+    
+}
+.sidebar{
+    display:block;
+    width:100%;
+    border:1px solid red;
+    background-color: #999999;
+}
+.main{
+    width:100%;
+    border:1px solid blue; 
+    background-color: #999999;
+
+    
+}
+.center{   
+    color:white;
+
+    width :40%;
+    margin:0 auto;
+}
+.header{
+    background-color: purple;
+    width:100%;
+    padding: 2%;
+    
+}
+.job{
+
+}
+.masthead{
+
+    background-color: #111111;
+}
+.hlist{
+    height:50px;
+    
+
+}
+.hlist li{
+    list-style:none;
+    float:left;
+    padding:15px;
+
+}
+.hlist li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #00bfff;
+
+}
+.float{
+
+    float:left;
+}
+.text{
+    padding:15px;
+}

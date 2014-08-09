@@ -1,0 +1,12 @@
+.box{
+    border:1px solid red;
+}
+.bodycontainer{
+    width:960px;
+    border:1px solid blue;
+}
+.hlist li{
+    list-style: none;
+    float:left;
+
+}

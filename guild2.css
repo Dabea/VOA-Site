@@ -47,17 +47,67 @@ body{
 .hlist li{
     list-style: none;
     padding:10px;
+    padding-left:20px;
     float:left;
 
 }
+.hlist a{
+    color:white;
+    text-decoration:none;
+    font-size:25px;
+}
 .masthead-nav{
     background-image: url('http://www.scenicreflections.com/files/Dark_and_Silver_Piecli_Texture__Wallpaper_cn17y.jpg');
+    margin:0px;
 }
 .masthead{
     margin:0px;
     padding:0px;
+    
+}
+.masthead-hd{
+    background-image: url('http://www.scenicreflections.com/files/Dark_and_Silver_Piecli_Texture__Wallpaper_cn17y.jpg');
+    margin:0px;
 }
 .block{
     display:block;
     width:1080px;
+    
+}
+.jobimg{
+    height:35px;
+    width:35px;
+    vertical-align:middle
+}
+.update{
+    border-bottom: 1px #666666 solid;
+}
+.media{
+    padding:10px;
+    margin:15px;
+    display:block;
+}
+.media-img{
+    float:left;
+    margin-right:10px;
+}
+.media-bd{
+    
+}
+.media-bd-heading{
+    color:deepskyblue;
+}
+.avatar{
+    height:70px;
+    width:100px;
+}
+.media-bd-heading{
+    font-size:25px;
+}
+.postby{
+    font-size:11px;
+    color:deepskyblue;
+}
+.banner{
+    margin:0px;
 }
